@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <id name="menu_stop"/>
+    <id name="menu_refresh"/>
+    <id name="menu_scan" />
+    <id name="device_address"/>
+    <id name="device_name"/>
+    <id name="gatt_services_list"/>
+    <id name="connection_state" />
+    <id name="data_value"/>
+    <id name="menu_connect"/>
+    <id name="menu_disconnect"/>
+</resources>
