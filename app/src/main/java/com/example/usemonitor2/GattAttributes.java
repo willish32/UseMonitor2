@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class GattAttributes {
     private static HashMap<String, String> attributes = new HashMap<String, String>();
     public static String VIBRATE_MEASUREMENT = "000000EE-0000-1000-8000-00805F9B34FB";
-    public static String CLIENT_CHARACTERISTIC_CONFIG = "";
+    public static String CLIENT_CHARACTERISTIC_CONFIG = "0000FF04-0000-1000-8000-00805F9B34FB";
 
     static {
         attributes.put("000000FF-0000-1000-8000-00805F9B34FB", "Monitor Profile");
