@@ -54,24 +54,46 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Most Recent Use Time (minutes):"
-            android:textSize = "18sp"/>
+            android:text="@string/most_recent_use_time_minutes"
+            android:textAlignment="center"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/data_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/no_data"
-            android:textSize="18sp"/>
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:id="@+id/total_use"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_use_time_minutes"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/data_value_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_data"
+            android:textAlignment="center"
+            android:textSize="20sp" />
     </LinearLayout>
 
-    <View
-        android:id="@+id/divider"
+    <Button
+        android:id="@+id/button"
         android:layout_width="match_parent"
-        android:layout_height="10dp"
-        android:visibility="visible" />
+        android:layout_height="wrap_content"
+        android:text="@string/weedwhacker_serviced"
+        android:textSize="18sp"/>
 
-    <ExpandableListView android:id="@+id/gatt_services_list"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
 </LinearLayout>

@@ -10,4 +10,5 @@
     <id name="data_value"/>
     <id name="menu_connect"/>
     <id name="menu_disconnect"/>
+    <id name="data_value_2"/>
 </resources>

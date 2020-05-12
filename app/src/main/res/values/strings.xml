@@ -12,4 +12,7 @@
     <string name="menu_scan">Scan</string>
     <string name="no_ble">BLE is not supported on this device</string>
     <string name="maintenance">Weed whacker likely requires maintenance</string>
+    <string name="total_use_time_minutes">Total Use Since Last Maintenance (minutes):</string>
+    <string name="most_recent_use_time_minutes">Most Recent Use Time (minutes):</string>
+    <string name="weedwhacker_serviced">Weedwhacker Serviced</string>
 </resources>
